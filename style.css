@@ -1,0 +1,138 @@
+.row{
+    width: 1400px;
+    height: 1400px;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    /* padding: 10px; */
+    grid-gap: 10px;
+    margin: auto;
+}
+.col1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    /* background-color: aqua; */
+    /* width: 100%; */
+    box-shadow: 0 5px 10px rgba(0.0,0,0.6);
+}
+.sheet{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.image{
+    position: relative;
+    display: inline-block;
+    width: 90%;
+}
+.name{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: black;
+
+}
+.sheet2{
+    width: 90%;
+    height: 140px;
+    /* border: 2px solid black; */
+    padding: 15px;
+}
+.line{
+    border: none;
+    width: 97%;
+    height: 2px;
+    background-color: aliceblue;
+    margin: 1px 0;
+}
+.progress-container{
+    width: 350px;
+    height: 15px;
+    background-color:white;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    color: azure;
+}
+.progress-bar{
+    height: 100%;
+    background-color: #009688;
+    border-radius: 10px;
+    
+}
+.col2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    box-shadow: 0 5px 10px rgba(0.0,0,0.6);
+    
+    
+}
+.col3{
+    grid-column-start: 2;
+    grid-row-end: 3;
+    box-shadow: 0 5px 10px rgba(0.0,0,0.6);
+    padding-left: 28px;
+}
+
+.fa-solid{
+    font-weight: 900;
+    color: #009688;
+}
+.language{
+    padding: 5%;
+}
+.progress-container2{
+    color: #009688;
+    height: 20px;
+    border-radius: 10px;
+    width: 350px;
+}
+.c{
+    color: black;
+}
+
+.w3-teal, .w3-hover-teal:hover {
+    color: #fff !important;
+    background-color: #009688 !important;
+  }
+  .w3-round, .w3-round-medium {
+    border-radius: 4px;
+  }
+  .w3-badge, .w3-tag {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+  }
+body{
+    font-family: "Roboto", sans-serif;
+   
+}
+h1,h2,h3,h5,p{
+    color:#555050 !important;
+}
+footer{
+    padding: 30px;
+    background-color: #229686;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+.footer{
+  padding: 30px;
+  background-color: #229686;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer1{
+    font-weight: bolder;
+    /* font-size: larger; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+}
